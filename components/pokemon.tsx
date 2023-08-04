@@ -1,4 +1,4 @@
-import { MutableRefObject, useRef } from "react";
+import { useRef } from "react";
 import { useInfiniteQuery, useQuery } from "react-query";
 import { getPoke } from "@/pages/api";
 import useIntersectionObserver from "@/hooks/useIntersectionObserver";
